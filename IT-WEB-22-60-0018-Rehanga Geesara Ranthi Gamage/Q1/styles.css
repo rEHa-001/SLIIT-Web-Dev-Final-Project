@@ -1,0 +1,249 @@
+/* general */
+body{
+    font-family: "Roboto", sans-serif;
+}
+.taskiacolorhollow{
+    border-color: #525ffb;
+    color:#525ffb;
+}
+.taskiacolor{
+    border-color: #525ffb;
+    color:white;
+    background-color:#525ffb;
+    font-weight:600;
+    font-size: 125%;
+}
+.taskiaweight{
+    font-weight:900;
+}
+.row{
+    align-items: center;
+}
+
+
+
+/* header */
+header{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.5% 10%;;
+}
+
+
+
+/* section 1 */
+h2{
+    font-size: 400%;
+}
+@media screen and (max-width: 400px){
+    h2{
+        font-size: 300%;
+    }
+    .section1formelement{
+        margin: auto;
+    }
+}
+.section1 p{
+    color: gray;
+}
+.section1 input{
+    font-size: 100%;
+}
+.form-control::placeholder { 
+    color: rgb(197, 197, 197);
+    opacity: 1;
+}    
+@media screen and (max-width: 991px){
+    #hero{
+        max-height: 500px;
+    }
+    #section1info{
+        text-align: center;
+        margin-top: 20px;
+    }
+    #section1form{
+        display:inline-block;
+        margin:auto;
+    }
+}
+
+
+
+/* section 2 heading */
+.section2pre h3{
+    text-align: center;
+    font-size: 250%;
+}
+.section2pre{
+    margin-top: 104px;
+}
+
+
+
+/* section 2 */
+.section2cardrow{
+    justify-content: space-around;
+}
+.card1, .card2, .card3{
+   margin:0 20px;
+}
+.card1{
+    background-color: #525ffb;
+    color: white;
+}
+.card2{
+    background-color: #e9f0ff;
+    margin-top:20px;
+}
+.card3{
+    background-color: #ffe7aa;
+    margin-top:20px;
+}
+@media screen and (min-width: 939px){
+    .card2{
+        margin-top:150px;
+    }
+    .card3{
+        margin-top:75px;
+    }
+}
+.card h5{
+    font-weight: 900;
+    font-size: 150%;
+    margin-top: -4.5rem;
+    padding:0 50px;
+    text-align: center;
+}
+.card p{
+    font-weight: 500;
+    text-align: center;
+}
+.card img{
+    padding-top: 2rem;
+}
+@media screen and (max-width: 325px){
+    .card h5{
+        font-weight: 900;
+        font-size: 100%;
+        margin-top: -2rem;
+        padding:0 50px;
+        text-align: center;
+    }
+    .card p{
+        font-weight: 500;
+        text-align: center;
+        font-size: smaller;
+    }
+}
+
+
+
+/* section 3 */
+.section3 p{
+    color: gray;
+}
+#section3{
+    margin-top: 100px;
+}
+@media screen and (max-width: 991px){
+    #tablet{
+        max-height: 400px;
+        margin-top: 20px;
+    }
+    #section3info{
+        text-align: center;
+    }
+}
+
+
+
+/* section 4 */
+.section4 p{
+    color: gray;
+}
+#section4{
+    margin-top: 100px;
+}
+@media screen and (max-width: 991px){
+    #biomon{
+        max-height: 400px;
+        margin-top: 40px;
+    }
+    #section4info{
+        text-align: center;
+    }
+}
+
+
+
+/* section 5 pre */
+.section5heading{
+    text-align: center;
+    margin-top: 100px;
+}
+
+
+
+/* section 5 */
+.section5 p{
+    color:#525ffb;
+    font-size: 100px;
+    text-align: center;
+}
+@media screen and (max-width: 400px){
+    .section5 p{
+        font-size: 80px;
+    }
+}
+@media screen and (min-width: 1320px){
+    .section5 p{
+        font-size: 150px;
+    }
+}
+.section5{
+    align-items: center;
+}
+@media screen and (min-width: 768px){
+    #s1{
+        margin-top: -100px;
+    }
+    #s2{
+        margin-top: 100px;
+    }
+}
+@media screen and (max-width: 767px){
+    #s1{
+        max-height:300px;
+        margin-top: 50px;
+    }
+    #s2{
+        max-height:300px;
+    }
+}
+
+
+
+/* section 6 */
+.section6heading{
+    text-align: center;
+    margin-top: 100px;
+}
+.section6 p{
+    width:250px;
+    margin: auto;
+    text-align: center;
+}
+@media screen and (max-width: 400px){
+    .section6formelement{
+        margin: auto;
+    }
+}
+#section6info{
+    text-align: center;
+    margin-top: 20px;
+}
+#section6form{
+    display:inline-block;
+    margin:auto;
+}
